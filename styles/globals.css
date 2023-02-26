@@ -11,3 +11,37 @@
 body {
   background-color: black;
 }
+
+.visionAnimation {
+  animation-name: valueAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.missionAnimation {
+  animation-name: valueAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+
+.valueAnimation {
+  animation-name: valueAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+
+
+@keyframes valueAnimation {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
