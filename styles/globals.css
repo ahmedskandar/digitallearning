@@ -89,3 +89,19 @@ body {
     left: 0;
   }
 }
+
+.introParagraphAnimation {
+  animation-name: introParagraphAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes introParagraphAnimation {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0;
+  }
+}
