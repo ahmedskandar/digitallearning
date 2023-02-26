@@ -20,7 +20,7 @@ const ValueCard: React.FC<ValueCardI> = ({
 
   const [hasViewed, setHasViewed] = useState(false);
 
-  const className = `h-[500px] flex justify-center ${background} bg-opacity-90 ${text} md:w-[100%] md:mx-auto`;
+  const className = `h-[500px] relative flex justify-center ${background} bg-opacity-90 ${text} md:w-[100%] md:mx-auto`;
 
   useEffect(() => {
     if (inView) {
@@ -32,8 +32,8 @@ const ValueCard: React.FC<ValueCardI> = ({
     <div
       ref={ref}
       className={`${className} ${
-        hasViewed && "visionAnimation"
-      } ${animation}`}
+        hasViewed && animation
+      } `}
     >
       <div className="w-[80%] mx-aut flex flex-col justify-center gap-10 text-center">
         <h1 className="text-2xl font-bold md:text-3xl">{heading}</h1>

@@ -13,18 +13,17 @@ body {
 }
 
 .visionAnimation {
-  animation-name: valueAnimation;
+  animation-name: visionAnimation;
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
 }
 
 .missionAnimation {
-  animation-name: valueAnimation;
+  animation-name: missionAnimation;
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-  animation-delay: .5s;
 }
 
 .valueAnimation {
@@ -32,16 +31,61 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-  animation-delay: 1s;
 }
 
-
-
 @keyframes valueAnimation {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes visionAnimation {
   0% {
     top: 100px;
   }
   100% {
     top: 0px;
+  }
+}
+@keyframes missionAnimation {
+  0% {
+    top: 150px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.qualityTeachingImageAnimation {
+  animation-name: qualityTeachingImageAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes qualityTeachingImageAnimation {
+  0% {
+    right: 100px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.qualityTeachingTextAnimation {
+  animation-name: qualityTeachingTextAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes qualityTeachingTextAnimation {
+  0% {
+    left: 100px;
+  }
+  100% {
+    left: 0;
   }
 }

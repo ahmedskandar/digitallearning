@@ -19,7 +19,7 @@ export default function Home() {
         <Intro />
         <section className="flex bg-comps-image bg-center bg-no-repeat bg-fixed bg-cover flex-col md:flex-row">
           <ValueCard
-          animation="md:visionAnimation"
+          animation="visionAnimation"
             background="bg-[#e3e3e3]"
             text="text-blacky"
             heading={"Vision"}
@@ -28,7 +28,7 @@ export default function Home() {
             }
           />
           <ValueCard
-          animation="md:missionAnimation"
+          animation="missionAnimation"
             text="text-[#E7E5E4] "
             background="bg-orange-500"
             heading={"Mission"}
@@ -37,7 +37,7 @@ export default function Home() {
             }
           />
           <ValueCard
-          animation="md:valueAnimation"
+          animation="valueAnimation"
             text="text-blacky"
             background="bg-[#e3e3e3]"
             heading={"Value Statement"}
