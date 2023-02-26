@@ -13,14 +13,14 @@ const QualityTeaching = () => {
     }
   }, [inView]);
 
-  const imageClassName = `md:h-[500px]  md:w-[900px] md:right-[100px] ${
+  const imageClassName = `md:h-[500px]   md:w-[900px] md:right-[100px] ${
     hasViewed && "qualityTeachingImageAnimation" 
   }`;
-  const textClassName = `text-orange-400  font-bold text-2xl md:text-6xl text-center bg-black md:bg-opacity-60 p-10 md:left-[100px] ${
+  const textClassName = `text-orange-400  font-bold text-2xl md:text-6xl text-center md:bg-opacity-60 md:p-10 md:bg-black md:left-[100px] ${
     hasViewed && "qualityTeachingTextAnimation"
   }`;
   return (
-    <section ref={ref} className="md:flex">
+    <section ref={ref} className="relative md:flex">
       <div>
         <Image
           className={imageClassName}
@@ -30,7 +30,7 @@ const QualityTeaching = () => {
           height="1000"
         />
       </div>
-      <div className="flex flex-col justify-center md:-ml-40">
+      <div className="absolute top-0 w-full h-full flex flex-col justify-center bg-black bg-opacity-50 md:bg-none md:static md:w-auto md:h-auto md:-ml-40">
         <p className={textClassName}>
           Quality Teaching, <br /> Any Time, <br /> Everywhere
         </p>
