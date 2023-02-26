@@ -20,7 +20,7 @@ const ValueCard: React.FC<ValueCardI> = ({
 
   const [hasViewed, setHasViewed] = useState(false);
 
-  const className = `h-[500px] relative flex justify-center ${background} bg-opacity-90 ${text} md:w-[100%] md:mx-auto`;
+  const className = `h-[500px] flex justify-center ${background} bg-opacity-90 ${text} md:w-[100%] md:mx-auto`;
 
   useEffect(() => {
     if (inView) {

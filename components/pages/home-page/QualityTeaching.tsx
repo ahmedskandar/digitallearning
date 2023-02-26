@@ -13,10 +13,10 @@ const QualityTeaching = () => {
     }
   }, [inView]);
 
-  const imageClassName = `h-[500px] w-[900px] ${
-    hasViewed && "qualityTeachingImageAnimation"
+  const imageClassName = `md:h-[500px]  md:w-[900px] md:right-[100px] ${
+    hasViewed && "qualityTeachingImageAnimation" 
   }`;
-  const textClassName = `text-orange-400 font-bold text-2xl md:text-6xl text-center bg-black md:bg-opacity-60 p-10 ${
+  const textClassName = `text-orange-400  font-bold text-2xl md:text-6xl text-center bg-black md:bg-opacity-60 p-10 md:left-[100px] ${
     hasViewed && "qualityTeachingTextAnimation"
   }`;
   return (

@@ -17,6 +17,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
+  animation-delay: .5s;
 }
 
 .missionAnimation {
@@ -24,6 +25,8 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
+    animation-delay: .5s;
+
 }
 
 .valueAnimation {
@@ -31,6 +34,8 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
+    animation-delay: .5s;
+
 }
 
 @keyframes valueAnimation {
@@ -63,6 +68,8 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
+      animation-delay: .5s;
+
 }
 
 @keyframes qualityTeachingImageAnimation {
@@ -79,6 +86,8 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
+      animation-delay: .5s;
+
 }
 
 @keyframes qualityTeachingTextAnimation {
@@ -90,14 +99,38 @@ body {
   }
 }
 
+@media (width < 500px) {
+  .qualityTeachingImageAnimation, .qualityTeachingTextAnimation {
+    animation: none;
+  }  
+}
+
 .introParagraphAnimation {
   animation-name: introParagraphAnimation;
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
+      animation-delay: .5s;
+
 }
 
 @keyframes introParagraphAnimation {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.projectsAnimation {
+  animation-name: projectsAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes projectsAnimation {
   0% {
     top: 100px;
   }

@@ -9,8 +9,6 @@ import QualityTeaching from "@/components/pages/home-page/QualityTeaching";
 import Projects from "@/components/pages/home-page/Projects";
 import Footer from "@/components/pages/home-page/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
@@ -19,7 +17,7 @@ export default function Home() {
         <Intro />
         <section className="flex bg-comps-image bg-center bg-no-repeat bg-fixed bg-cover flex-col md:flex-row">
           <ValueCard
-          animation="visionAnimation"
+            animation="visionAnimation top-[100px]"
             background="bg-[#e3e3e3]"
             text="text-blacky"
             heading={"Vision"}
@@ -28,7 +26,7 @@ export default function Home() {
             }
           />
           <ValueCard
-          animation="missionAnimation"
+            animation="missionAnimation top-[150px]"
             text="text-[#E7E5E4] "
             background="bg-orange-500"
             heading={"Mission"}
@@ -37,7 +35,7 @@ export default function Home() {
             }
           />
           <ValueCard
-          animation="valueAnimation"
+            animation="valueAnimation top-[200px]"
             text="text-blacky"
             background="bg-[#e3e3e3]"
             heading={"Value Statement"}
