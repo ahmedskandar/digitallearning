@@ -10,6 +10,7 @@
 
 body {
   background-color: black;
+  font-size: large;
 }
 
 .visionAnimation {
@@ -17,7 +18,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-  animation-delay: .5s;
+  animation-delay: 1s;
 }
 
 .missionAnimation {
@@ -25,7 +26,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-    animation-delay: .5s;
+    animation-delay: 1s;
 
 }
 
@@ -34,7 +35,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-    animation-delay: .5s;
+    animation-delay: 1s;
 
 }
 
@@ -68,7 +69,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-      animation-delay: .5s;
+      animation-delay: 1s;
 
 }
 
@@ -86,7 +87,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-      animation-delay: .5s;
+      animation-delay: 1s;
 
 }
 
@@ -110,7 +111,7 @@ body {
   animation-duration: 2s;
   position: relative;
   animation-fill-mode: forwards;
-      animation-delay: .5s;
+      animation-delay: 1s;
 
 }
 
